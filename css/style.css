@@ -215,3 +215,77 @@
 .gamer-img img {
     width: 100%;
 }
+
+
+/*********** online game css ***********/
+.online-game {
+    padding: 65px 100px;
+}
+
+.online-game-content {
+    text-align: center;
+}
+
+.online-game-content h1 {
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card p {
+    color: #534c64;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.card-item p {
+    margin-top: 10px;
+}
+
+.img-item {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    border: 3px solid #f948b2;
+    width: 304px;
+    height: 356px;
+    border-radius: 16px;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.child i {
+    position: absolute;
+    top: 41%;
+    left: 45%;
+    font-size: 30px;
+    color: #fff;
+}
+
+.child p {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 15px;
+    color: #f948b2;
+    font-weight: 600;
+}
+
+.img-item:hover .child {
+    display: block;
+    transition: 1s;
+}
+
+.card-item img {
+    width: 100%;
+    filter: brightness(45%);
+}
