@@ -23,7 +23,7 @@
 }
 
 .title {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
     color: transparent;
@@ -32,8 +32,9 @@
 
 .description {
     color: #534c64;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 /************** navbar css **************/
@@ -164,4 +165,53 @@
 .banner-img img {
     display: block;
     width: 95%;
+}
+
+
+/************ gamer css ************/
+.gamer {
+    background: linear-gradient(90deg,
+            rgba(255, 66, 165, 0.03) 0%,
+            rgba(255, 66, 165, 0.03) 100%);
+    padding: 20px 100px;
+}
+
+.gamer-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.gamer-content {
+    text-align: right;
+    width: 50%;
+}
+
+.gamer-content h1 {
+    margin-bottom: 20px;
+}
+
+.gamer-content .btn-primary {
+    margin: 20px 0;
+}
+
+.purpose {
+    color: #534c64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.unlesh {
+    color: #534c64;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.gamer-img {
+    width: 50%;
+}
+
+.gamer-img img {
+    width: 100%;
 }
