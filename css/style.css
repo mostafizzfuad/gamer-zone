@@ -1,0 +1,167 @@
+/* work sans font imported from google font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/****************** global css ******************/
+* {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    outline: 0;
+    border-radius: 48px;
+    padding: 15px 35px;
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+    cursor: pointer;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description {
+    color: #534c64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/************** navbar css **************/
+.navbar {
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px 100px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-title span {
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.menus ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menus li {
+    list-style-type: none;
+    color: #3c354f;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menus li:hover {
+    color: #ff42a5;
+    transition: 1s;
+}
+
+#follow {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+}
+
+.fa-youtube {
+    color: #f61c0d;
+    font-size: 24px;
+}
+
+.fa-tiktok {
+    color: #000000;
+    text-shadow: 1px 1px #f00044, -1px -1px #08fff9;
+}
+
+/*********** banner css ***********/
+.banner {
+    padding: 10px 100px 0;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-sub-title {
+    color: #0b0223;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin: 10px 0;
+}
+
+.banner-text {
+    color: #534c64;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.fa-circle-play,
+.fa-download {
+    color: #ff42a5;
+    margin-right: 5px;
+}
+
+.fa-user {
+    color: #0b0223;
+    margin-right: 5px;
+}
+
+.btn-secondary {
+    background: #4ec5f7;
+    margin-left: 15px;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    display: block;
+    width: 95%;
+}
